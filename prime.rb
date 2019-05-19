@@ -1,1 +1,7 @@
-# Add  code here!
+def prime?(int)
+  if int <= 1
+    return false
+  else
+    range=(2..int-1).to_a
+  end
+end
