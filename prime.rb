@@ -3,7 +3,7 @@ def prime?(int)
     return false
   else
     range=(2..int-1).to_a
-    if range.any? {|element| int % element}
+    if range.any? {|element| int % element == 0}
       return false
     else
       return true
